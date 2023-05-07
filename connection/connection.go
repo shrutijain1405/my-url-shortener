@@ -14,7 +14,7 @@ var (
 func MakeDbConnection() {
     cfg := mysql.Config{
         User:   "root",
-        Passwd: "Shruti@123",
+        Passwd: "password",
         Net:    "tcp",
         Addr:   "127.0.0.1:3306",
         DBName: "url-shortner",
